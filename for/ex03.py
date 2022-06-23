@@ -1,11 +1,10 @@
 num = int(input("Número: "))
 
-acumulador = num
+fatorial = 1
 
-for i in range(1, num):
-    aux = num - i
-    acumulador = aux * acumulador
+for i in range(num, 0, -1):
+    fatorial = fatorial * i
 
-print(acumulador)
+print(fatorial)
 
     
