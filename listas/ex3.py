@@ -16,4 +16,5 @@ for i in range(5):
 for i in range(5):
     soma.append(x[i] + y[i])
 
-print(soma)
+print("Soma das listas: ", soma)
+print("Concatenação das listas: ", x + y)

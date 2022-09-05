@@ -15,4 +15,7 @@ for i in range(5):
 for i in range(5):
     produto.append(x[i] * y[4- i])
 
+""" for i in range(len(x)):
+    produto.append(x[i] * y[len(x)-1 - i]) """
+
 print(produto)
