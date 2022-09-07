@@ -6,25 +6,27 @@ se o indice é par, coloca vetor A
 se o indice é impar, coloca vetor B
 
 """
+import numpy as np
 
 v1 = []
 v2 = []
-intercalacao = []
+intercalacao = np.zeros(20)
 
-print('LISTA 1')
+#PREENCHENDO VETORES
+print("VETOR 1")
 for i in range(10):
     valor = int(input("Valor: "))
     v1.append(valor)
 
-print('LISTA 2')
+print("VETOR 2")
 for i in range(10):
     valor = int(input("Valor: "))
     v2.append(valor)
 
+#INTERCALANDO VALORES
 for i in range(10):
-        if i % 2 == 0:
-            intercalacao.append(v2[i])
-        else:
-            intercalacao.append(v1[i])
+    intercalacao[2 * i] = v1[i]
+    intercalacao[(2 * i) + 1] = v2[i]
 
-print(intercalacao)
+print("Intercalação: ", intercalacao)
+
