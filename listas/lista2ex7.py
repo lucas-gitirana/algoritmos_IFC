@@ -16,6 +16,11 @@ for i in range(len(y)):
 
 for i in range(len(x)):
     contIguais = 0
+
+    """ ## PODERIA USAR
+    if x[i] not in y[i]:
+        diferenca.append(x[i]) """
+        
     for j in range(len(y)):
         if x[i] == y[j]:
             contIguais += 1            

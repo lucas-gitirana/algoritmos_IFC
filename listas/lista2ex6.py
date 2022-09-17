@@ -22,6 +22,10 @@ for i in range(5):
         consumoMaisEconomico = consumo[i]
         maisEconomico = modelos[i]
 
+""" # FUNÇÕES
+maisEconomico = max(consumo)
+indice = consumo.index(max(consumo)) """
+
 for i in range(5):
     milKm.append(consumo[i] * 1000)
 

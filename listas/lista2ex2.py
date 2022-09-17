@@ -17,6 +17,6 @@ for i in range(9):
         if (vetor[i] % j) == 0:
             contDivisores += 1
     
-    if contDivisores <= 2:
+    if contDivisores == 2:
         print("O número ", vetor[i], "é primo. Ele está na posição ", i)
 
