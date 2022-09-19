@@ -21,6 +21,9 @@ for i in range(len(r)):
         if r[i] == s[j]:
             x.append(s[j])
 
+# OPERAÇÃO COM CONJUNTOS
+# resultado = set(r) & set(s)
+
 print(x)
 
 
