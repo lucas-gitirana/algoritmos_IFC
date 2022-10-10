@@ -5,4 +5,7 @@ def epar(x):
         return False
     
 x = int(input('Informe um valor: '))
-print(epar(x))
+if epar(x):
+    print('PAR')
+else:
+    print('ÍMPAR')
