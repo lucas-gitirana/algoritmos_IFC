@@ -17,9 +17,11 @@ lista = []
 with open(nome_arq, "r") as arquivo:
     inteiros = arquivo.readlines()
     for i in inteiros:
-        lista.append(i)
+        lista.append(int(i))
+        #lista.append(i)
 
 print('-------------CONTEÚDO DO ARQUIVO-------------')
+print(inteiros)
 for i in range(len(lista)):
     print(lista[i])
 
